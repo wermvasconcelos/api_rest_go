@@ -1,10 +1,9 @@
 package main
 
 import (
+	"api_rest_go/models"
+	"api_rest_go/routes"
 	"fmt"
-
-	"github.com/api_rest_go/models"
-	"github.com/api_rest_go/routes"
 )
 
 func main() {

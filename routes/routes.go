@@ -1,10 +1,9 @@
 package routes
 
 import (
+	"api_rest_go/controllers"
 	"log"
 	"net/http"
-
-	"github.com/api_rest_go/controllers"
 )
 
 func HandleResquest() {

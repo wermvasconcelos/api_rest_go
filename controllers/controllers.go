@@ -1,11 +1,10 @@
 package controllers
 
 import (
+	"api_rest_go/models"
 	"encoding/json"
 	"fmt"
 	"net/http"
-
-	"github.com/api_rest_go/models"
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {
